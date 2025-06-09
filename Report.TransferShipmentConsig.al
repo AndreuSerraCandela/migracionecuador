@@ -1,0 +1,450 @@
+report 51020 "Transfer Shipment (Consig)"
+{
+    DefaultLayout = RDLC;
+    RDLCLayout = './TransferShipmentConsig.rdlc';
+    Caption = 'Transfer Receipt';
+
+    dataset
+    {
+        dataitem("Transfer Shipment Header"; "Transfer Shipment Header")
+        {
+            DataItemTableView = SORTING ("No.");
+            RequestFilterFields = "No.", "Transfer-from Code";
+            RequestFilterHeading = 'Posted Transfer Receipt';
+            column(Transfer_Shipment_Header_No_; "No.")
+            {
+            }
+            dataitem(CopyLoop; "Integer")
+            {
+                DataItemTableView = SORTING (Number);
+                dataitem(PageLoop; "Integer")
+                {
+                    DataItemTableView = SORTING (Number) WHERE (Number = CONST (1));
+                    column(CompanyInfo_Picture; CompanyInfo.Picture)
+                    {
+                    }
+                    column(CompanyInfo_Address______CompanyInfo__Address_2________CompanyInfo__Country_Region_Code_; CompanyInfo.Address + ',' + CompanyInfo."Address 2" + ' ' + CompanyInfo."Country/Region Code")
+                    {
+                    }
+                    column(Conmutador___CompanyInfo__Phone_No_______Fax___CompanyInfo__Fax_No__; 'Conmutador ' + CompanyInfo."Phone No." + ', Fax ' + CompanyInfo."Fax No.")
+                    {
+                    }
+                    column(rCliente__No_________rCliente_Name; rCliente."No." + ' - ' + rCliente.Name)
+                    {
+                    }
+                    column(rCliente_Address; rCliente.Address)
+                    {
+                    }
+                    column(rCliente__Address_2_; rCliente."Address 2")
+                    {
+                    }
+                    column(rCliente_City; rCliente.City)
+                    {
+                    }
+                    column(rCliente_Contact_____Tel___rCliente__Phone_No__; rCliente.Contact + ' Tel:' + rCliente."Phone No.")
+                    {
+                    }
+                    column(rCliente__VAT_Registration_No__; rCliente."VAT Registration No.")
+                    {
+                    }
+                    column(rContacto__Country_Region_Code__________Tel___rContacto__Phone_No__; rContacto."Country/Region Code" + ', ' + 'Tel:' + rContacto."Phone No.")
+                    {
+                    }
+                    column(rCliente_Contact_____Tel___rCliente__Phone_No___Control1000000020; rCliente.Contact + ' Tel:' + rCliente."Phone No.")
+                    {
+                    }
+                    column(rContacto__Address_2_; rContacto."Address 2")
+                    {
+                    }
+                    column(rContacto_City; rContacto.City)
+                    {
+                    }
+                    column(rContacto_Address; rContacto.Address)
+                    {
+                    }
+                    column(rContacto_Name; rContacto.Name)
+                    {
+                    }
+                    column(Transfer_Shipment_Header___No__; "Transfer Shipment Header"."No.")
+                    {
+                    }
+                    column(Transfer_Shipment_Header___Posting_Date_; "Transfer Shipment Header"."Posting Date")
+                    {
+                    }
+                    column(Transfer_Shipment_Header___Cod__Vendedor_; "Transfer Shipment Header"."Cod. Vendedor")
+                    {
+                    }
+                    column(Transfer_Shipment_Header___Transfer_from_Code_; "Transfer Shipment Header"."Transfer-from Code")
+                    {
+                    }
+                    column(FORMAT_WORKDATE_________FORMAT_TIME_; Format(WorkDate) + '  ' + Format(Time))
+                    {
+                    }
+                    column(Transfer_Shipment_Header___External_Document_No__; "Transfer Shipment Header"."External Document No.")
+                    {
+                    }
+                    column(Cliente_Caption; Cliente_CaptionLbl)
+                    {
+                    }
+                    column(NIT_Caption; NIT_CaptionLbl)
+                    {
+                    }
+                    column(Domicilio_Caption; Domicilio_CaptionLbl)
+                    {
+                    }
+                    column(Entregar_en_Caption; Entregar_en_CaptionLbl)
+                    {
+                    }
+                    column(Ruta_de_Embarque_Caption; Ruta_de_Embarque_CaptionLbl)
+                    {
+                    }
+                    column(NOTA_DE_REMISIONCaption; NOTA_DE_REMISIÓNCaptionLbl)
+                    {
+                    }
+                    column(Pedido_Caption; Pedido_CaptionLbl)
+                    {
+                    }
+                    column(Fecha_Pedido_Caption; Fecha_Pedido_CaptionLbl)
+                    {
+                    }
+                    column(Fecha_Requerida_Caption; Fecha_Requerida_CaptionLbl)
+                    {
+                    }
+                    column(Tipo_de_Pedido_Caption; Tipo_de_Pedido_CaptionLbl)
+                    {
+                    }
+                    column(Termino_de_Pago_Caption; Termino_de_Pago_CaptionLbl)
+                    {
+                    }
+                    column(Grupo_de_Venta_Caption; Grupo_de_Venta_CaptionLbl)
+                    {
+                    }
+                    column(Vendedor_Caption; Vendedor_CaptionLbl)
+                    {
+                    }
+                    column(Almacen_Caption; Almacén_CaptionLbl)
+                    {
+                    }
+                    column(Orden_de_Compra_Caption; Orden_de_Compra_CaptionLbl)
+                    {
+                    }
+                    column(Pedido_ConsignacionCaption; Pedido_ConsignaciónCaptionLbl)
+                    {
+                    }
+                    column(Peso_Caption; Peso_CaptionLbl)
+                    {
+                    }
+                    column(PageLoop_Number; Number)
+                    {
+                    }
+                    dataitem(DimensionLoop1; "Integer")
+                    {
+                        DataItemLinkReference = "Transfer Shipment Header";
+                        DataItemTableView = SORTING (Number) WHERE (Number = FILTER (1 ..));
+
+                        trigger OnAfterGetRecord()
+                        begin
+                            if Number = 1 then begin
+                                if not DimSetEntry1.FindSet then
+                                    CurrReport.Break;
+                            end else
+                                if not Continue then
+                                    CurrReport.Break;
+
+                            Clear(DimText);
+                            Continue := false;
+                            repeat
+                                OldDimText := DimText;
+                                if DimText = '' then
+                                    DimText := StrSubstNo('%1 - %2', DimSetEntry1."Dimension Code", DimSetEntry1."Dimension Value Code")
+                                else
+                                    DimText :=
+                                      StrSubstNo(
+                                        '%1; %2 - %3', DimText,
+                                        DimSetEntry1."Dimension Code", DimSetEntry1."Dimension Value Code");
+                                if StrLen(DimText) > MaxStrLen(OldDimText) then begin
+                                    DimText := OldDimText;
+                                    Continue := true;
+                                    exit;
+                                end;
+                            until DimSetEntry1.Next = 0;
+                        end;
+
+                        trigger OnPreDataItem()
+                        begin
+                            if not ShowInternalInfo then
+                                CurrReport.Break;
+                        end;
+                    }
+                    dataitem("Transfer Shipment Line"; "Transfer Shipment Line")
+                    {
+                        DataItemLink = "Document No." = FIELD ("No.");
+                        DataItemLinkReference = "Transfer Shipment Header";
+                        DataItemTableView = SORTING ("Document No.", "Line No.");
+                        column(Transfer_Shipment_Line__Item_No__; "Item No.")
+                        {
+                        }
+                        column(Transfer_Shipment_Line_Description; Description)
+                        {
+                        }
+                        column(Transfer_Shipment_Line_Quantity; Quantity)
+                        {
+                        }
+                        column(Transfer_Shipment_Line__Transfer_Shipment_Line___Precio_Venta_Consignacion_; "Transfer Shipment Line"."Precio Venta Consignacion")
+                        {
+                        }
+                        column(Transfer_Shipment_Line__Transfer_Shipment_Line___Descuento___Consignacion_; "Transfer Shipment Line"."Descuento % Consignacion")
+                        {
+                        }
+                        column(Transfer_Shipment_Line__Transfer_Shipment_Line___Importe_Consignacion_; "Transfer Shipment Line"."Importe Consignacion")
+                        {
+                        }
+                        column(Transfer_Shipment_Line_Quantity_Control1000000002; Quantity)
+                        {
+                        }
+                        column(Transfer_Shipment_Line__Importe_Consignacion_; "Importe Consignacion")
+                        {
+                        }
+                        column(Comentario_1_; Comentario[1])
+                        {
+                        }
+                        column(Comentario_2_; Comentario[2])
+                        {
+                        }
+                        column(Comentario_3_; Comentario[3])
+                        {
+                        }
+                        column(Comentario_4_; Comentario[4])
+                        {
+                        }
+                        column(Comentario_5_; Comentario[5])
+                        {
+                        }
+                        column(CodigoCaption; CódigoCaptionLbl)
+                        {
+                        }
+                        column(TituloCaption; TítuloCaptionLbl)
+                        {
+                        }
+                        column(CantidadCaption; CantidadCaptionLbl)
+                        {
+                        }
+                        column(P_V_P_Caption; P_V_P_CaptionLbl)
+                        {
+                        }
+                        column(DescuentoCaption; DescuentoCaptionLbl)
+                        {
+                        }
+                        column(TotalCaption; TotalCaptionLbl)
+                        {
+                        }
+                        column(Total_de_Ejemplares_Caption; Total_de_Ejemplares_CaptionLbl)
+                        {
+                        }
+                        column(Observaciones_Caption; Observaciones_CaptionLbl)
+                        {
+                        }
+                        column(Importe_Neto_Caption; Importe_Neto_CaptionLbl)
+                        {
+                        }
+                        column(Transfer_Shipment_Line_Document_No_; "Document No.")
+                        {
+                        }
+                        column(Transfer_Shipment_Line_Line_No_; "Line No.")
+                        {
+                        }
+                        dataitem(DimensionLoop2; "Integer")
+                        {
+                            DataItemTableView = SORTING (Number) WHERE (Number = FILTER (1 ..));
+
+                            trigger OnAfterGetRecord()
+                            begin
+                                if Number = 1 then begin
+                                    if not DimSetEntry2.FindSet then
+                                        CurrReport.Break;
+                                end else
+                                    if not Continue then
+                                        CurrReport.Break;
+
+                                Clear(DimText);
+                                Continue := false;
+                                repeat
+                                    OldDimText := DimText;
+                                    if DimText = '' then
+                                        DimText := StrSubstNo('%1 - %2', DimSetEntry2."Dimension Code", DimSetEntry2."Dimension Value Code")
+                                    else
+                                        DimText :=
+                                          StrSubstNo(
+                                            '%1; %2 - %3', DimText,
+                                            DimSetEntry2."Dimension Code", DimSetEntry2."Dimension Value Code");
+                                    if StrLen(DimText) > MaxStrLen(OldDimText) then begin
+                                        DimText := OldDimText;
+                                        Continue := true;
+                                        exit;
+                                    end;
+                                until DimSetEntry2.Next = 0;
+                            end;
+
+                            trigger OnPreDataItem()
+                            begin
+                                if not ShowInternalInfo then
+                                    CurrReport.Break;
+                            end;
+                        }
+
+                        trigger OnAfterGetRecord()
+                        begin
+                            DimSetEntry2.SetRange("Dimension Set ID", "Dimension Set ID");
+                        end;
+
+                        trigger OnPreDataItem()
+                        begin
+                            //CurrReport.CreateTotals(Quantity, "Importe Consignacion");
+                            MoreLines := Find('+');
+                            while MoreLines and (Description = '') and ("Item No." = '') and (Quantity = 0) do
+                                MoreLines := Next(-1) <> 0;
+                            if not MoreLines then
+                                CurrReport.Break;
+                            SetRange("Line No.", 0, "Line No.");
+                        end;
+                    }
+                }
+
+                trigger OnAfterGetRecord()
+                begin
+                    if Number > 1 then begin
+                        CopyText := Text000;
+                        OutputNo += 1;
+                    end;
+                    //CurrReport.PageNo := 1;
+                end;
+
+                trigger OnPreDataItem()
+                begin
+                    NoOfLoops := 1 + Abs(NoOfCopies);
+                    CopyText := '';
+                    SetRange(Number, 1, NoOfLoops);
+                    OutputNo := 1;
+                end;
+            }
+
+            trigger OnAfterGetRecord()
+            begin
+                DimSetEntry1.SetRange("Dimension Set ID", "Dimension Set ID");
+
+                FormatAddr.TransferShptTransferFrom(TransferFromAddr, "Transfer Shipment Header");
+                FormatAddr.TransferShptTransferTo(TransferToAddr, "Transfer Shipment Header");
+
+                if "Devolucion Consignacion" then
+                    if rCliente.Get("Transfer-from Code") then begin
+                    end
+                    else
+                        if rCliente.Get("Transfer-to Code") then;
+
+                if rContacto.Get(rCliente.Contact) then;
+
+
+                rInvCommentLine.Reset;
+                rInvCommentLine.SetRange("Document Type", 3);
+                rInvCommentLine.SetRange("No.", "No.");
+                if rInvCommentLine.FindSet then
+                    repeat
+                        I += 1;
+                        Comentario[I] := rInvCommentLine.Comment;
+                    until (rInvCommentLine.Next = 0) or (I = 5);
+            end;
+
+            trigger OnPreDataItem()
+            begin
+                CompanyInfo.Get;
+                CompanyInfo.CalcFields(Picture);
+            end;
+        }
+    }
+
+    requestpage
+    {
+        SaveValues = true;
+
+        layout
+        {
+            area(content)
+            {
+                group(Options)
+                {
+                    Caption = 'Options';
+                    field(NoOfCopies; NoOfCopies)
+                    {
+                    ApplicationArea = All;
+                        Caption = 'No. of Copies';
+                    }
+                    field(ShowInternalInfo; ShowInternalInfo)
+                    {
+                    ApplicationArea = All;
+                        Caption = 'Show Internal Information';
+                    }
+                }
+            }
+        }
+
+        actions
+        {
+        }
+    }
+
+    labels
+    {
+    }
+
+    var
+        Text000: Label 'COPY';
+        Text001: Label 'Transfer Receipt %1';
+        Text002: Label 'Page %1';
+        DimSetEntry1: Record "Dimension Set Entry";
+        DimSetEntry2: Record "Dimension Set Entry";
+        FormatAddr: Codeunit "Format Address";
+        TransferFromAddr: array[8] of Text[50];
+        TransferToAddr: array[8] of Text[50];
+        MoreLines: Boolean;
+        NoOfCopies: Integer;
+        NoOfLoops: Integer;
+        CopyText: Text[30];
+        DimText: Text[120];
+        OldDimText: Text[75];
+        ShowInternalInfo: Boolean;
+        Continue: Boolean;
+        OutputNo: Integer;
+        CompanyInfo: Record "Company Information";
+        rCliente: Record Customer;
+        rContacto: Record Contact;
+        rInvCommentLine: Record "Inventory Comment Line";
+        Comentario: array[9] of Text[100];
+        I: Integer;
+        Cliente_CaptionLbl: Label 'Cliente:';
+        NIT_CaptionLbl: Label 'NIT:';
+        Domicilio_CaptionLbl: Label 'Domicilio:';
+        Entregar_en_CaptionLbl: Label 'Entregar en:';
+        Ruta_de_Embarque_CaptionLbl: Label 'Ruta de Embarque:';
+        "NOTA_DE_REMISIÓNCaptionLbl": Label 'NOTA DE REMISION (Envio)';
+        Pedido_CaptionLbl: Label 'Pedido:';
+        Fecha_Pedido_CaptionLbl: Label 'Fecha Pedido:';
+        Fecha_Requerida_CaptionLbl: Label 'Fecha Requerida:';
+        Tipo_de_Pedido_CaptionLbl: Label 'Tipo de Pedido:';
+        Termino_de_Pago_CaptionLbl: Label 'Termino de Pago:';
+        Grupo_de_Venta_CaptionLbl: Label 'Grupo de Venta:';
+        Vendedor_CaptionLbl: Label 'Vendedor:';
+        "Almacén_CaptionLbl": Label 'Almacén:';
+        Orden_de_Compra_CaptionLbl: Label 'Orden de Compra:';
+        "Pedido_ConsignaciónCaptionLbl": Label 'Pedido Consignación';
+        Peso_CaptionLbl: Label 'Peso:';
+        "CódigoCaptionLbl": Label 'Código';
+        "TítuloCaptionLbl": Label 'Título';
+        CantidadCaptionLbl: Label 'Cantidad';
+        P_V_P_CaptionLbl: Label 'P.V.P.';
+        DescuentoCaptionLbl: Label '% Descuento';
+        TotalCaptionLbl: Label 'Total';
+        Total_de_Ejemplares_CaptionLbl: Label 'Total de Ejemplares:';
+        Observaciones_CaptionLbl: Label 'Observaciones:';
+        Importe_Neto_CaptionLbl: Label 'Importe Neto:';
+}
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 2252867762 - Control 3070983066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Legal Representative ID</source>
+          <target>ID du représentant légal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension pageextension50001 - Control Identificación del Rep. Legal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 339777911 - Control 1243505398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target>Bloqué</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension pageextension50002 - Control Bloqueado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1136119119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equivalent Products</source>
+          <target>Produits équivalents</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Productos equivalentes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1864564006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subjects</source>
+          <target>Sujets</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Asignaturas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 971686229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event Lists</source>
+          <target>Liste des événements</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista Eventos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1361486068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>
+
+hops and Events</source>
+          <target>Ateliers et événements sur les matériaux</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Materiales Talleres y Eventos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1452635308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workshop/Event Assistants</source>
+          <target>Participants aux ateliers et événements</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Asistentes Talleres y Eventos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2253548053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of Teachers</source>
+          <target>Liste des enseignants</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista de Docentes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2224822981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of workshops - events</source>
+          <target>
+
+ers - événements</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista de Talleres - Eventos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1766277174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promoter - Routes</source>
+          <target>Promoteur - itinéraires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Promotor - Rutas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3304501118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of parents</source>
+          <target>Liste des parents</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista Padres - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4130750943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Types of personal documents</source>
+          <target>Types de documents personnels</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tipos de documentos personales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2330355418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promoter - Objectives</source>
+          <target>Promoteur - Objectifs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Promotor - Objetivos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3326119749 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promoter - Tasks</source>
+          <target>Promoteur - Tâches</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Promotor - Tareas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1773965085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Religious order</source>
+          <target>Religious order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Orden Religiosa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4022735083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Educational association</source>
+          <target>Association éducative</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Asociacion Educativa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3018423416 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>T&amp;E Request List</source>
+          <target>Liste de demandes T&amp;E</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lista Solicitudes T&amp;E - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 852517790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Bitmap Flags</source>
+          <target>Charger Bitmap Flags</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Carga Bitmap flags - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3881604909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business groups</source>
+          <target>Groupes d'entreprises</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Grupos de Negocio - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3659806254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Education level</source>
+          <target>Niveau éducatif</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nivel Educativo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3572922831 - Control 1243505398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target>Bloqué</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension pageextension50129 - Control Bloqueado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2193541567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate adoption archive</source>
+          <target>Générer le dossier d'adoption</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera archivo adopciones - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3832806047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate school file</source>
+          <target>Générer le dossier scolaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera archivo Colegios - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3141140045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate teacher archives</source>
+          <target>G
+ier pédagogique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera archivo Docentes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3455488436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Adoptions</source>
+          <target>Importer des adoptions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Alcance presupuesto promotor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2186690551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Price List</source>
+          <target>Liste de prix d'importation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Importar Lista de Precios - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

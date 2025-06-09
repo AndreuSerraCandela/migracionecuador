@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>b3fd6e7c-9f2c-4674-a667-307c4fd9c6c7</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Filtros.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <Width>22.53968cm</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>0.63492cm</Height>
+      </Body>
+      <Width>22.65cm</Width>
+      <Page>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>25.45cm</PageWidth>
+        <LeftMargin>2.1cm</LeftMargin>
+        <TopMargin>2cm</TopMargin>
+        <BottomMargin>2cm</BottomMargin>
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Invalid</rd:ReportUnitType>
+  <rd:ReportID>626ebb78-afab-4b22-9b94-cda80c59e3b7</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="FORMAT_TODAY_0_4_">
+          <DataField>FORMAT_TODAY_0_4_</DataField>
+        </Field>
+        <Field Name="COMPANYNAME">
+          <DataField>COMPANYNAME</DataField>
+        </Field>
+        <Field Name="USERID">
+          <DataField>USERID</DataField>
+        </Field>
+        <Field Name="Filtros">
+          <DataField>Filtros</DataField>
+        </Field>
+        <Field Name="Customer__No__">
+          <DataField>Customer__No__</DataField>
+        </Field>
+        <Field Name="Customer_Name">
+          <DataField>Customer_Name</DataField>
+        </Field>
+        <Field Name="Customer__Balance_en_Consignacion_Act__">
+          <DataField>Customer__Balance_en_Consignacion_Act__</DataField>
+        </Field>
+        <Field Name="Customer__Inventario_en_Consignacion_Act_">
+          <DataField>Customer__Inventario_en_Consignacion_Act_</DataField>
+        </Field>
+        <Field Name="Customer__Inventario_en_Consignacion_Act_Format">
+          <DataField>Customer__Inventario_en_Consignacion_Act_Format</DataField>
+        </Field>
+        <Field Name="w0a30">
+          <DataField>w0a30</DataField>
+        </Field>
+        <Field Name="w0a30Format">
+          <DataField>w0a30Format</DataField>
+        </Field>
+        <Field Name="w31a60">
+          <DataField>w31a60</DataField>
+        </Field>
+        <Field Name="w31a60Format">
+          <DataField>w31a60Format</DataField>
+        </Field>
+        <Field Name="w61a90">
+          <DataField>w61a90</DataField>
+        </Field>
+        <Field Name="w61a90Format">
+          <DataField>w61a90Format</DataField>
+        </Field>
+        <Field Name="w91enAde">
+          <DataField>w91enAde</DataField>
+        </Field>
+        <Field Name="w91enAdeFormat">
+          <DataField>w91enAdeFormat</DataField>
+        </Field>
+        <Field Name="wImp_0a30">
+          <DataField>wImp_0a30</DataField>
+        </Field>
+        <Field Name="wImp_0a30Format">
+          <DataField>wImp_0a30Format</DataField>
+        </Field>
+        <Field Name="wImp_31a60">
+          <DataField>wImp_31a60</DataField>
+        </Field>
+        <Field Name="wImp_31a60Format">
+          <DataField>wImp_31a60Format</DataField>
+        </Field>
+        <Field Name="wImp_61a90">
+          <DataField>wImp_61a90</DataField>
+        </Field>
+        <Field Name="wImp_61a90Format">
+          <DataField>wImp_61a90Format</DataField>
+        </Field>
+        <Field Name="wImp_91aAde">
+          <DataField>wImp_91aAde</DataField>
+        </Field>
+        <Field Name="wImp_91aAdeFormat">
+          <DataField>wImp_91aAdeFormat</DataField>
+        </Field>
+        <Field Name="w0a30_Control1000000032">
+          <DataField>w0a30_Control1000000032</DataField>
+        </Field>
+        <Field Name="w0a30_Control1000000032Format">
+          <DataField>w0a30_Control1000000032Format</DataField>
+        </Field>
+        <Field Name="w31a60_Control1000000033">
+          <DataField>w31a60_Control1000000033</DataField>
+        </Field>
+        <Field Name="w31a60_Control1000000033Format">
+          <DataField>w31a60_Control1000000033Format</DataField>
+        </Field>
+        <Field Name="w61a90_Control1000000034">
+          <DataField>w61a90_Control1000000034</DataField>
+        </Field>
+        <Field Name="w61a90_Control1000000034Format">
+          <DataField>w61a90_Control1000000034Format</DataField>
+        </Field>
+        <Field Name="w91enAde_Control1000000035">
+          <DataField>w91enAde_Control1000000035</DataField>
+        </Field>
+        <Field Name="w91enAde_Control1000000035Format">
+          <DataField>w91enAde_Control1000000035Format</DataField>
+        </Field>
+        <Field Name="CustomerCaption">
+          <DataField>CustomerCaption</DataField>
+        </Field>
+        <Field Name="CurrReport_PAGENOCaption">
+          <DataField>CurrReport_PAGENOCaption</DataField>
+        </Field>
+        <Field Name="Customer__No__Caption">
+          <DataField>Customer__No__Caption</DataField>
+        </Field>
+        <Field Name="Customer_NameCaption">
+          <DataField>Customer_NameCaption</DataField>
+        </Field>
+        <Field Name="Customer__Balance_en_Consignacion_Act__Caption">
+          <DataField>Customer__Balance_en_Consignacion_Act__Caption</DataField>
+        </Field>
+        <Field Name="Customer__Inventario_en_Consignacion_Act_Caption">
+          <DataField>Customer__Inventario_en_Consignacion_Act_Caption</DataField>
+        </Field>
+        <Field Name="V91_a_120Caption">
+          <DataField>V91_a_120Caption</DataField>
+        </Field>
+        <Field Name="V0_a_90_díasCaption">
+          <DataField>V0_a_90_díasCaption</DataField>
+        </Field>
+        <Field Name="V121_a_150Caption">
+          <DataField>V121_a_150Caption</DataField>
+        </Field>
+        <Field Name="V151_en_adelanteCaption">
+          <DataField>V151_en_adelanteCaption</DataField>
+        </Field>
+        <Field Name="TotalCaption">
+          <DataField>TotalCaption</DataField>
+        </Field>
+        <Field Name="t0a30__Remaining_Quantity_">
+          <DataField>t0a30__Remaining_Quantity_</DataField>
+        </Field>
+        <Field Name="t0a30__Remaining_Quantity_Format">
+          <DataField>t0a30__Remaining_Quantity_Format</DataField>
+        </Field>
+        <Field Name="t0a30__Document_No__">
+          <DataField>t0a30__Document_No__</DataField>
+        </Field>
+        <Field Name="Importe30">
+          <DataField>Importe30</DataField>
+        </Field>
+        <Field Name="Importe30Format">
+          <DataField>Importe30Format</DataField>
+        </Field>
+        <Field Name="t0a30_Entry_No_">
+          <DataField>t0a30_Entry_No_</DataField>
+        </Field>
+        <Field Name="t0a30_Location_Code">
+          <DataField>t0a30_Location_Code</DataField>
+        </Field>
+        <Field Name="t31a60_Quantity">
+          <DataField>t31a60_Quantity</DataField>
+        </Field>
+        <Field Name="t31a60_QuantityFormat">
+          <DataField>t31a60_QuantityFormat</DataField>
+        </Field>
+        <Field Name="t31a60__Document_No__">
+          <DataField>t31a60__Document_No__</DataField>
+        </Field>
+        <Field Name="t31a60__Importe_Cons__Neto_Inicial_">
+          <DataField>t31a60__Importe_Cons__Neto_Inicial_</DataField>
+        </Field>
+        <Field Name="t31a60__Importe_Cons__Neto_Inicial_Format">
+          <DataField>t31a60__Importe_Cons__Neto_Inicial_Format</DataField>
+        </Field>
+        <Field Name="t31a60_Entry_No_">
+          <DataField>t31a60_Entry_No_</DataField>
+        </Field>
+        <Field Name="t31a60_Location_Code">
+          <DataField>t31a60_Location_Code</DataField>
+        </Field>
+        <Field Name="t61a90_Quantity">
+          <DataField>t61a90_Quantity</DataField>
+        </Field>
+        <Field Name="t61a90_QuantityFormat">
+          <DataField>t61a90_QuantityFormat</DataField>
+        </Field>
+        <Field Name="t61a90__Document_No__">
+          <DataField>t61a90__Document_No__</DataField>
+        </Field>
+        <Field Name="t61a90__Importe_Cons__Neto_Inicial_">
+          <DataField>t61a90__Importe_Cons__Neto_Inicial_</DataField>
+        </Field>
+        <Field Name="t61a90__Importe_Cons__Neto_Inicial_Format">
+          <DataField>t61a90__Importe_Cons__Neto_Inicial_Format</DataField>
+        </Field>
+        <Field Name="t61a90_Entry_No_">
+          <DataField>t61a90_Entry_No_</DataField>
+        </Field>
+        <Field Name="t61a90_Location_Code">
+          <DataField>t61a90_Location_Code</DataField>
+        </Field>
+        <Field Name="t91Adelante_Quantity">
+          <DataField>t91Adelante_Quantity</DataField>
+        </Field>
+        <Field Name="t91Adelante_QuantityFormat">
+          <DataField>t91Adelante_QuantityFormat</DataField>
+        </Field>
+        <Field Name="t91Adelante__Document_No__">
+          <DataField>t91Adelante__Document_No__</DataField>
+        </Field>
+        <Field Name="t91Adelante__Importe_Cons__Neto_Inicial_">
+          <DataField>t91Adelante__Importe_Cons__Neto_Inicial_</DataField>
+        </Field>
+        <Field Name="t91Adelante__Importe_Cons__Neto_Inicial_Format">
+          <DataField>t91Adelante__Importe_Cons__Neto_Inicial_Format</DataField>
+        </Field>
+        <Field Name="t91Adelante_Entry_No_">
+          <DataField>t91Adelante_Entry_No_</DataField>
+        </Field>
+        <Field Name="t91Adelante_Location_Code">
+          <DataField>t91Adelante_Location_Code</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

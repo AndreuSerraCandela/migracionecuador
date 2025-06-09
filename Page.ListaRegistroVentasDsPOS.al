@@ -1,0 +1,68 @@
+page 76074 "Lista Registro Ventas DsPOS"
+{
+    ApplicationArea = all;
+    CardPageID = "Log Registro Ventas DsPOS";
+    DeleteAllowed = false;
+    Editable = false;
+    InsertAllowed = false;
+    ModifyAllowed = false;
+    PageType = List;
+    SourceTable = "Cabecera Log Registro POS";
+    SourceTableView = SORTING ("No. Log")
+                      ORDER(Ascending);
+
+    layout
+    {
+        area(content)
+        {
+            repeater(General)
+            {
+                field("No. Log"; rec."No. Log")
+                {
+                    Editable = false;
+                }
+                field(Fecha; rec.Fecha)
+                {
+                    Editable = false;
+                }
+                field("Hora Inicio"; rec."Hora Inicio")
+                {
+                    Editable = false;
+                }
+                field("Fecha Fin"; rec."Fecha Fin")
+                {
+                    Editable = false;
+                }
+                field("Hora Fin"; rec."Hora Fin")
+                {
+                    Editable = false;
+                }
+                field(Errores; rec.Errores)
+                {
+                    Editable = false;
+                }
+                field("No. Facturas Registradas"; rec."No. Facturas Registradas")
+                {
+                    Editable = false;
+                }
+                field("No. Facturas Liquidadas"; rec."No. Facturas Liquidadas")
+                {
+                    Editable = false;
+                }
+                field("No. NC Registradas"; rec."No. NC Registradas")
+                {
+                    Editable = false;
+                }
+                field("No. NC Liquidadas"; rec."No. NC Liquidadas")
+                {
+                    Editable = false;
+                }
+            }
+        }
+    }
+
+    actions
+    {
+    }
+}
+

@@ -1,0 +1,1452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:DataSourceID>25bc2e40-beb2-43f9-82b3-e779f7f268eb</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="table1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>2.98388in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.67139in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.80472in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>2.69375in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="rectangle3">
+                          <ReportItems>
+                            <Textbox Name="Titulos_1_">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CodLibro_1______txtDescripcion_1_.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Titulos_1_</rd:DefaultName>
+                              <Top>1.041cm</Top>
+                              <Left>12.59919cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.34921cm</Width>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Titulos_3_">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CodLibro_2______txtDescripcion_2_.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Titulos_3_</rd:DefaultName>
+                              <Top>1.341cm</Top>
+                              <Left>12.59919cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.34921cm</Width>
+                              <ZIndex>1</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Titulos_5_">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CodLibro_3______txtDescripcion_3_.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Titulos_5_</rd:DefaultName>
+                              <Top>1.641cm</Top>
+                              <Left>12.59919cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.34921cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Titulos_7_">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CodLibro_4______txtDescripcion_4_.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Titulos_7_</rd:DefaultName>
+                              <Top>1.941cm</Top>
+                              <Left>12.59919cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.34921cm</Width>
+                              <ZIndex>3</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Titulos_9_">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CodLibro_5______txtDescripcion_5_.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Titulos_9_</rd:DefaultName>
+                              <Top>2.27628cm</Top>
+                              <Left>12.59919cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.34921cm</Width>
+                              <ZIndex>4</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="No__Cupon_____">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!No__Cupon_____.Value</Value>
+                                      <Style>
+                                        <FontFamily>3 of 9 Barcode</FontFamily>
+                                        <FontSize>20pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>No__Cupon_____</rd:DefaultName>
+                              <Top>2.3497in</Top>
+                              <Left>0.25334cm</Left>
+                              <Height>0.24584in</Height>
+                              <Width>2in</Width>
+                              <ZIndex>5</ZIndex>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="UPPERCASE_TXT001________Ano_Escolar__">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!UPPERCASE_TXT001________Ano_Escolar__.Value</Value>
+                                      <Style>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>UPPERCASE_TXT001________Ano_Escolar__</rd:DefaultName>
+                              <Top>0.56386in</Top>
+                              <Left>0cm</Left>
+                              <Height>0.15in</Height>
+                              <Width>2.2in</Width>
+                              <ZIndex>6</ZIndex>
+                              <Style>
+                                <BackgroundColor>Silver</BackgroundColor>
+                              </Style>
+                            </Textbox>
+                            <Rectangle Name="rectangle1">
+                              <DataElementOutput>ContentsOnly</DataElementOutput>
+                              <Left>2.2in</Left>
+                              <Height>2.69375in</Height>
+                              <Width>0.05in</Width>
+                              <ZIndex>7</ZIndex>
+                              <Style>
+                                <BackgroundColor>Silver</BackgroundColor>
+                              </Style>
+                            </Rectangle>
+                            <Image Name="image1">
+                              <Source>Embedded</Source>
+                              <Value>logo</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>Fit</Sizing>
+                              <Top>0.05642cm</Top>
+                              <Left>0.12698cm</Left>
+                              <Height>0.35in</Height>
+                              <Width>1.4375in</Width>
+                              <ZIndex>8</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                            <Textbox Name="textbox2">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!UPPERCASE_TXT001________Ano_Escolar__.Value</Value>
+                                      <Style>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>1.15556in</Top>
+                              <Left>5.72911cm</Left>
+                              <Height>0.15in</Height>
+                              <Width>5.19611in</Width>
+                              <ZIndex>9</ZIndex>
+                              <Style>
+                                <BackgroundColor>Silver</BackgroundColor>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="telefono">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!PBX____rCompanyInf__Phone_No_____Ext_____419__302_y_370_________Fax____rCompanyInf__Fax_No__.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>telefono</rd:DefaultName>
+                              <Top>0.9807cm</Top>
+                              <Height>0.38095cm</Height>
+                              <Width>5.55272cm</Width>
+                              <ZIndex>10</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="cliente___Cabecera__Nombre_Colegio_">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!UPPERCASE__ESTABLECIMIENTO______Cod__Colegio___________Nombre_Colegio__Control1000000008.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>cliente___Cabecera__Nombre_Colegio_</rd:DefaultName>
+                              <Top>1.84849cm</Top>
+                              <Left>0.05642cm</Left>
+                              <Height>1.36129cm</Height>
+                              <Width>5.4963cm</Width>
+                              <ZIndex>11</ZIndex>
+                              <Style>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="grado">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Grado_Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>grado</rd:DefaultName>
+                              <Top>3.20978cm</Top>
+                              <Left>0.05642cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>1.90477cm</Width>
+                              <ZIndex>12</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Cabecera_Cabecera__Descripcion_grado_">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!GradoAlum.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Cabecera_Cabecera__Descripcion_grado_</rd:DefaultName>
+                              <Top>3.20978cm</Top>
+                              <Left>2.06703cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>3.45042cm</Width>
+                              <ZIndex>13</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Cabecera_Cabecera__No__Cupon_">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Cab__Cupon__Cab__Cupon___No__Cupon_.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Cabecera_Cabecera__No__Cupon_</rd:DefaultName>
+                              <Top>5.5873cm</Top>
+                              <Left>0.25334cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>5.07937cm</Width>
+                              <ZIndex>14</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!ZONA_1Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>3.3514cm</Top>
+                              <Left>5.72911cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>15</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="lista">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!NO__CUPON_Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>lista</rd:DefaultName>
+                              <Top>0.02114cm</Top>
+                              <Left>14.18123cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>2.11643cm</Width>
+                              <ZIndex>16</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Cabecera_Cabecera__No__Cupon__1">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Cab__Cupon__Cab__Cupon___No__Cupon_.Value</Value>
+                                      <Style>
+                                        <FontSize>9pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Cabecera_Cabecera__No__Cupon__1</rd:DefaultName>
+                              <Top>0.02113cm</Top>
+                              <Left>16.47404cm</Left>
+                              <Height>0.38096cm</Height>
+                              <Width>2.47436cm</Width>
+                              <ZIndex>17</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="vendedor">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!ASESOR_Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>vendedor</rd:DefaultName>
+                              <Top>0.40222cm</Top>
+                              <Left>14.18123cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>2.11643cm</Width>
+                              <ZIndex>18</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Cabecera_Cabecera__Cod__Promotor_">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Cab__Cupon__Cab__Cupon___Cod__Vendedor_.Value</Value>
+                                      <Style>
+                                        <FontSize>9pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Cabecera_Cabecera__Cod__Promotor_</rd:DefaultName>
+                              <Top>0.40221cm</Top>
+                              <Left>16.47404cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>2.47436cm</Width>
+                              <ZIndex>19</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Line Name="line1">
+                              <Top>4.35723cm</Top>
+                              <Left>5.72911cm</Left>
+                              <Height>0cm</Height>
+                              <Width>5.19611in</Width>
+                              <ZIndex>20</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>Dotted</Style>
+                                </Border>
+                              </Style>
+                            </Line>
+                            <Textbox Name="titulo">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!TitulosCaption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>titulo</rd:DefaultName>
+                              <Top>0.741cm</Top>
+                              <Left>12.59919cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.34921cm</Width>
+                              <ZIndex>21</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Cabecera_Cabecera__No__Cupon_2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Firma_AutorizadaCaption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Cabecera_Cabecera__No__Cupon_</rd:DefaultName>
+                              <Top>5.07937cm</Top>
+                              <Left>0.25334cm</Left>
+                              <Height>0.43737cm</Height>
+                              <Width>5.07937cm</Width>
+                              <ZIndex>22</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                  <Width>2pt</Width>
+                                </Border>
+                                <TopBorder>
+                                  <Style>Solid</Style>
+                                </TopBorder>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                            </Textbox>
+                            <Image Name="image2">
+                              <Source>Embedded</Source>
+                              <Value>logo</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>Fit</Sizing>
+                              <Top>0.05642cm</Top>
+                              <Left>5.78556cm</Left>
+                              <Height>0.35in</Height>
+                              <Width>1.4375in</Width>
+                              <ZIndex>23</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                            <Textbox Name="telefono2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!PBX____rCompanyInf__Phone_No_____Ext_____419__302_y_370_________Fax____rCompanyInf__Fax_No__.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>telefono</rd:DefaultName>
+                              <Top>0.9807cm</Top>
+                              <Left>5.75028cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>6.77952cm</Width>
+                              <ZIndex>24</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="cliente___Cabecera__Nombre_Colegio_2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!UPPERCASE__ESTABLECIMIENTO______Cod__Colegio___________Nombre_Colegio__Control1000000008.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>cliente___Cabecera__Nombre_Colegio_</rd:DefaultName>
+                              <Top>1.39693cm</Top>
+                              <Left>5.76439cm</Left>
+                              <Height>1.07205cm</Height>
+                              <Width>6.76541cm</Width>
+                              <ZIndex>25</ZIndex>
+                              <Style>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="grado2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Grado_Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>grado</rd:DefaultName>
+                              <Top>2.53954cm</Top>
+                              <Left>5.78556cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>1.90477cm</Width>
+                              <ZIndex>26</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Cabecera_Cabecera__Descripcion_grado_2">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!GradoAlum.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Cabecera_Cabecera__Descripcion_grado_</rd:DefaultName>
+                              <Top>2.51838cm</Top>
+                              <Left>7.83144cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>3.45042cm</Width>
+                              <ZIndex>27</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Titulos_9_2">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CodLibro_6______txtDescripcion_6_.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Titulos_9_</rd:DefaultName>
+                              <Top>2.56456cm</Top>
+                              <Left>12.59919cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.34921cm</Width>
+                              <ZIndex>28</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Parque_de_la_IndustriaCaption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>3.3514cm</Top>
+                              <Left>12.40633cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>29</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_3">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!V6__Ave_y_10__Calle_Esquina_Local_2_1_3_Zona_1Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>3.68667cm</Top>
+                              <Left>5.73507cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>30</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_4">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Local_28__Parque_de_la_Industria_Del_06_al_15_de_Enero_de_2012Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>3.68667cm</Top>
+                              <Left>12.41229cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>31</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_5">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Edif_Plaza_Vivar__Tercer_Nivel___Tel__2220_0313__11_y_2232_6533Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>3.98667cm</Top>
+                              <Left>5.73507cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>32</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_6">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Centro_Comercial_Zona_4Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>4.39251cm</Top>
+                              <Left>5.70794cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>33</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Line Name="line2">
+                              <Top>5.39834cm</Top>
+                              <Left>5.70794cm</Left>
+                              <Height>0cm</Height>
+                              <Width>5.19611in</Width>
+                              <ZIndex>34</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>Dotted</Style>
+                                </Border>
+                              </Style>
+                            </Line>
+                            <Textbox Name="LibsSantillana_1_7">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CC_Meta_Terminal_del_NorteCaption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>4.39251cm</Top>
+                              <Left>12.38516cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>35</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_8">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!V6__Ave_0_60_Zona_4_Local_154B1__Guatemala___Teléfono_2338_0045Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>4.72778cm</Top>
+                              <Left>5.7139cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>36</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_9">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!V11_Ave_4_78_Apto_101_Zona_18_Atlántida___Tel__2255_2082__3019_4181Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>4.72778cm</Top>
+                              <Left>12.39112cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>37</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_10">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Centro_Comercial_MontserratCaption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>5.46889cm</Top>
+                              <Left>5.72911cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>38</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_11">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!CC_Plaza_Villa_NuevaCaption.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>5.46889cm</Top>
+                              <Left>12.40633cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>39</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_12">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Calz_San_Juan_14_06_Zona_4_Local_71F__Mixco__Tel__2431_1675__3002_0008Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>5.80416cm</Top>
+                              <Left>5.73507cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>40</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="LibsSantillana_1_13">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Calz__Concepción_5_26_Zona_6__Plaza_Villa_Nueva_L_13__Tel__6636_4172Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>LibsSantillana_1_</rd:DefaultName>
+                              <Top>5.80416cm</Top>
+                              <Left>12.41229cm</Left>
+                              <Height>0.3cm</Height>
+                              <Width>6.53611cm</Width>
+                              <ZIndex>41</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="lista2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Vence_Caption.Value</Value>
+                                      <Style>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>lista</rd:DefaultName>
+                              <Top>6.28056cm</Top>
+                              <Left>12.41229cm</Left>
+                              <Height>0.38095cm</Height>
+                              <Width>2.11643cm</Width>
+                              <ZIndex>42</ZIndex>
+                              <Style />
+                            </Textbox>
+                            <Textbox Name="Cabecera_Cabecera__No__Cupon__2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Cab__Cupon__Valido_Hasta_.Value</Value>
+                                      <Style>
+                                        <FontSize>9pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Cabecera_Cabecera__No__Cupon__1</rd:DefaultName>
+                              <Top>6.28055cm</Top>
+                              <Left>14.7051cm</Left>
+                              <Height>0.38096cm</Height>
+                              <Width>2.47436cm</Width>
+                              <ZIndex>43</ZIndex>
+                              <Style />
+                            </Textbox>
+                          </ReportItems>
+                          <DataElementOutput>ContentsOnly</DataElementOutput>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                              <Width>2pt</Width>
+                            </Border>
+                            <TopBorder>
+                              <Style>Solid</Style>
+                              <Width>2pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Style>Solid</Style>
+                              <Width>2pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Style>Solid</Style>
+                              <Width>2pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Style>Solid</Style>
+                              <Width>2pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Rectangle>
+                        <ColSpan>3</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                    <TablixCell />
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.10181in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="textbox1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>textbox1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Width>2pt</Width>
+                            </Border>
+                            <TopBorder>
+                              <Width>2pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Width>2pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Width>2pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Width>2pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>3</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                    <TablixCell />
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="table1_Details_Group">
+                    <DataElementName>Detail</DataElementName>
+                  </Group>
+                  <TablixMembers>
+                    <TablixMember />
+                    <TablixMember />
+                  </TablixMembers>
+                  <DataElementName>Detail_Collection</DataElementName>
+                  <DataElementOutput>Output</DataElementOutput>
+                  <KeepTogether>true</KeepTogether>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>0.02085cm</Top>
+            <Height>2.79556in</Height>
+            <Width>7.46in</Width>
+            <Style />
+          </Tablix>
+        </ReportItems>
+        <Height>7.12157cm</Height>
+        <Style />
+      </Body>
+      <Width>18.9484cm</Width>
+      <Page>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>15.2cm</PageWidth>
+        <LeftMargin>0.7cm</LeftMargin>
+        <RightMargin>0.05cm</RightMargin>
+        <TopMargin>0.5cm</TopMargin>
+        <BottomMargin>0.5cm</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logo">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>/9j/4AAQSkZJRgABAQEAYABgAAD/4QBYRXhpZgAATU0AKgAAAAgABAExAAIAAAARAAAAPlEQAAEAAAABAQAAAFERAAQAAAABAAAAAFESAAQAAAABAAAAAAAAAABBZG9iZSBJbWFnZVJlYWR5AAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAA+AQUDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/GYIpZjhRySe1fmx+37/AMHHnw9/Z012/wDCfwssLf4meKrN
+mhn1Hz9mh2Mg6qJF+a5YdxFtTniQkEDyb/g5/wD+CqOrfAPwvpvwN8E6hcWOo+KLZrnxReWkmyZLRhhLHeOU80MHkxhimxeVdwfyF/Z5/Zd+JH7QHk3djZweH9Dk2supXyFEdSOsaEF5MjoVG3/aFceZcQZNktL6znFXlXb8u2r6JO7P2rgXgTLnTjmPEN+SSTjC7V09VKT0dmtYpPVWb0dj6y+Mf/Bb79pT4+XU3nfEK88K2E33LHwzEulpD/uzJ/pH/fUprxvWP2gvHvjV92s+OPGGruxDMb3Wbm4JI6H53PSvpj4H/wDBNzwP4QtUuvE2o6p4ouIwGl86UWlom3qQkeGH/ApCOB75+oPhR8dPhP8As5JHDpem/C63mjO3fH4csry6JHTdKkTSkjkYZjjJ9a/O19J7haFf6vgcFiK1utOlFr7udS/A/eqHiBwxkFG2AwkI278lJP8A7es396PzV8M+LfF95c+Zpep+JJZ7cht1rcTM8XocqcivYfA3xw/ae+HjxyaH4i+NVnGgG2JZ9QkgIHTMbZQ/iK/UnwX/AMFmND063jt5tJhvbeLgCxtHtQB14DEgdfQV7D4G/wCCqPwv8YQJ57a5pVwxwY57PzB9QyFsj8j7V95lPjNkuZx/hypPtVjKH4uPL8lJs+Szr6TWES5K2VUKkPOrGa/9N6fdY/Pn4If8FVP2zvh3Lb/2/wDD3xB8QNN4LDUfB1zbzsnbZLbRoM/7TK/41+gP7Hn/AAUhh/aY1C10XxH8MviR8NfEtwp2xatoly+mzMBnal35SqDgH/WrHngDJIFeh6F+218L/EDKsfiq2t3bGVurea32/VnQL+td74X+Ieg+N492ja1pOrLjP+iXcc2PrtJx+Nex/b2W43/d+Rv+7JP8EfiXE3iFw1n1OX1fKaVCq9pUajjZ+cFHka7+6n2aNiiiisz81CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKAP5k/wBtb4jWP7QX7a3jTxpr2nwa5bzeJrm6tIbtOFgRmigUr0O2FUXDAjKgkEijx9+3B/whvkaV4Z0mS61CaMMLi6jIhiyoyFQcyMBx1ABH8QrkfiH4LvvBvivUtL1CGSDUdLuZLa6jcEMHRip6/SueR2jfcpKt0yDg18/mHBOQ8e4PDZrJ/vacVFq75Xpe0kunWLW6eqaVl/pRx34R0M/yqlHJqyoV6dOMITteMoxSUVJLbTRSjdpdHZJdNBrvjz4uXX2jXtSvJoz8wjnl8uFOvSJeFxn+6DXpvgP4ZNEsfn3yjBGViT8Ouf6V5b4b8fPpMgFxGZEznKcEfh0/lXoXh/43aXBJDFtvppZcDZHAWIPTnt2z14r43MOAc1wNsPh8NeOy9mrr5KK0+aR/nX4jeFfHvDKq4zOMNKVGCblWh+8hyreUpauC85qJ7f4O8GWFsq7nuJP95+P0FeneFNKsbIq0cKq6gAMSWIx9a5T9nKx8I/Eu5iTWviN4d8F+Yf8AVajbXbyd+6RGEfjKDz7Gvu/4Pf8ABMzwh4x0CDUrL4nJ4nsZQCLjR4YfJb2DCSQf/q6V4uN8OeI4Lmr4SdNPrNcv/pVj8Ry3HPNrrA141O6jUi/vSd/wPl6pLa5ks7hJYZJIpYzuV0Yqyn1BFfdmjf8ABM7wDp203F94lv2A5El1Ein8FjB/Wu98Ifse/DbwTKslp4V0+eZTnfel7w59cSlgPwArHDeG+aTd6koxXq2/wX6ntUuF8W37zS+f/APJP+CeHxO8f+Np9Qtdae+1bwvbwZg1C9JZ4pwwAjSQ8yAruyCTt2jkZw31NTYII7WBY4o1jjjAVUUbVUDoAKdX69k2XzwWEjhqlR1Gur/LroumrPtcDhpYeiqUpOTXVhRRRXqHWFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB+QP7bv7Cdh8ffiZ4om0e6t9F
+8eaFfy2t0s4YW+qRKxEMj4yUJjCkOoPoQeCPhn4k/sb/ABG+Hd5Imo+D9aVYyc3Frbm7t2Hr5kW5Rn3IPtwa/Wn/AIKc+Drr4bfHzQ/F1hIdOHiiAW0V2vCNeQjBhkJ4y8W0qMc+VJ7V554Q/aUtm22viK1k0656efGpeF/fHJH4ZHuK/jvNs2418PM1q/2JH6xhrtxg788YN3UVb44LZK0nH4Vbluf0p4XfSSq4KislzKUXOj7q521dWXL73S6s/euuzWy/JPXPBmr+GWjGo6XqFj5pIQ3Fu8YfHpuAzVrwtoW7UIZpmK+WwZFXklgeK/aJZ9I8d6PJHu0/V7CYbZIzsnicejDkfgapfB74PeBvgb4wuNd0HwH4NXUbght9zpaTCAjvED/qffy9ue9fonBf04Mlpz5OKssqU6kdnTkpRv8A3oyUJRt5Ofoer4xeIHH3E+VTynhSvQwtGvFxqTalKryyVpKnK7guZNpvlUkn7sk1c/OD4a/BLx38SLdZvDvgrxZrsLfMH07R7i6X65RCO1fTn7LH7Ev7TXhHxxZa14S8P654NvIpF8y7v7pLCIqD0lidt0kfqvlvkdj3/Sz4QftL6h8QfGVppF1pNuv2kOWmt2b93tUtkqc8cY69/wAK9ir+quF/pHYTi7LZ4zIqcZUeZwfPGWjSTaakop6SW11qf501Po14fKcXB4/FVFUVpJ0+WD30afvNbd7mHrXi1fh/8NrvXfEcsMa6Jpj3+qSWys0aCKIvMyA8lRtYgHnGK/Cv4xf8FuP2lf2rvixJpPw1udS8N2eoTsmleH/DWlreahKgyVDSeW80km0Zby9q9flAr92PiF4Ks/iT4B1zw7qHmfYNf0+fTbnYdreVNG0b4PY7WNfzn/GP9nv45f8ABIb9o+PVrdtW0G802eRNG8UWMG/T9VhbK8Fg0Z3L96CTJGRlehPwWaVKis43Uetj9vpRSVj1jSv2v/8AgoF8NL6KSaD40I0jbhHq
+vgl7hZQOCMTWp457Yxnsea/ZT9hXxH8TfGH7K/hPVvjBZwad4/1KCS41C0jtRbNboZX8lZIwTtkMPlll42sxUgEEV+cP7In/AAcuXkd/Z6T8afCtvJauRG/iDw8hSSLoN8tqxIb1YxupAHEZPFfph8Qv2rfB/gv9lbVvi/a6pZ6x4RsNEk1q2uraUbL9AhMcaE9Hd9sYU4IdsEAgingnDWSqN+T6Dlc/L/8A4Lef8FVviH8Nf2tP+Ff/AAt8Zah4Z0/whYxpq8lgU3XV/KPMZSxBO2ONolwMYcuDyBj63/4Ie/t5a1+2x+zJqMPjLUk1Txx4JvxZX9wY0jkvLWRd9tO6oAu44ljJA58nceWNfkj+wp+y9rX/AAVQ/bT1601u/lhl1i21TxJrepIP9TNIG8twDng3U0I28/Lu64ru/wDgiX+0Dffsg/8ABRmz8La+0mm2PjCaXwhq9tKcfZ7zzMW5Izjctyix5PRZXrjo4qp7ZVJfDJtDcVax98f8F/8A9sT4lfsi+EPhjcfDnxVd+F5tcvNQjvmgghl+0LGluUB8xGxgu3THWub/AOCJv/BYTxH+1J41u/hh8V9Ssr7xVJbm60DVRbpbSaoEBMtvIsYCGRUG9SqruVZM5IBPMf8AB0d/yIfwc/6/9U/9F2tfmRpfw48b/APwB8PfjVos81nZX2rTLpep24+bT9RspQ3ltnIyV2OueGG8YO01WIxFSniW1eytdeWgRinE/V7/AIL/AP7b3xU/ZF8X/DG3+HPjC88Lw65Z6hJfLBbwS/aGje3CE+YjYwHbpjrXnPx0/wCCjv7UHj79gf4A+JPh9b67ceI/GEGry+JtX0Dw4L15ms75rSBSqwvHDvVGkbaF3Nwu1QVPgv8AwWN/bJ0n9un4Qfs/+OtP8m31CTTtVs9asEbP9nX8b2nmx887TlXQ90dc85A/Tr/ghP8A8oq/hZ/3Fv8A073taRlKtiJwjJpNK34Bsj8i/GH/AAVs/a3+
+HuvSaXr/AMQvFWh6pCFaSz1DRbW2uIwwBUlHtwwyCCMjkGvdP2Nv2sP24vi/+0t8O9M1C++IsnhvU9bspNSnvfC6QWJ0/wA1Hnd5fs6gRmENyGBOQAckV5N/wX8/5Sd+M/8Arw0v/wBIoa/eP9n/AP5IP4J/7AFj/wCk8dZ4alOdWUXN+6++4Seh+PXxq/4Kw/Hn4V/8FRfEHhLT/HEs3hHT/HjaRHo9zYWslubT7WI/J3eX5g+U43Bgw9a9f/4L0/t9fF79kr9o/wAG6P8ADvxpe+GdM1Hw4L65ghtbeZZZvtU6bz5sbH7qqMA44r4U/a2/5TBeMP8Asprf+l619Ff8HOv/ACdp4A/7FEf+llxUe2qeyqO70a6+ZVldH6q/sAfGTXP2g/2Mfhz4z8SzQXGveINGiuL6aGEQpNLkqX2DhS23JC4GScADAHg//BeH9p3x3+yh+yH4c8RfD3xFceGdavPGFtp011DDFK0lu1lfSNHiRWGC8UZyBn5evWvTv+CSn/KN34P/APYAT/0N6+df+Dmj/kw/wl/2Ptn/AOm7Uq9KtKX1XmvrZGa3O4/4IS/thePv2w/2YvEepfEPWI9e1bQPED6dBfG1jgmkhMEMoDiMKrEM7AHaDjrnrX25X5qf8GxX/Jpfj/8A7G4/+kdvX6UzTJbwtJIyxxxgszMcKoHUk1pg5OVGLYS3Pzj/AOC/n/BRPxV+yrovgrwP8O/EVx4d8Va80mr6jd2oX7RBYpuiiQFgcCWUyHI5/wBGIyASDzv/AAQM/wCCmfjT9pTxp4q+G/xM8RzeI9WgsxrOhXt2qLcNGjhLiBmVR5mDJG65ywAk5KgBfgn9oTxhqf8AwVX/AOCps0GkzyyWfjHxDFoejuoJFppkTeWswU9AIUedh6s9GsxX3/BJf/gq7IbYXH2DwB4lEkSklpLzR7gZ2k92ezm2k9A5PpivKeKn7b2y+C9vL+upfLpY/YL/AILU/tB+Mv2Zf2HL/wAU
++Bdcn8Pa/DrFlbJeQxRyMsbuwdcSKy849K+L/wDgkj/wXC8ceMPj9p3w9+NGv2+uaX4qkFppOtTWsNrNp94x/dRSGJUV45W+QFgWV2T5tucfSn/BwNrNr4j/AOCYlxqFjcRXdjfaxpdxbzxNuSaN2LK6nuCCCD71+Ivh34EeIvEXwK174jabC02h+E9UtNN1R48+ZZNcq5glP+wWjZM9mZB/EK0xmIqU8QnB6WvboKKTR+4H/Bev9qr4gfsm/s5eDta+HfiS68M6pqXiQWVzPBDFK0sP2Wd9hEiMPvKp4GeK6D/ghp+1r46/bE/Y71TX/iDqset65ovie50aO9FtHBJPAlraTL5gjCqWDTuNwUZAXOTkn83/ANt3/goEv7cX/BK74c2+uXizfEDwT4sh07XQ7fvL5PsNyIb3/tqqkN/00STgArX2p/wbNyLD+wX4uZmVVXx5eEknAA/s7Tq1o4hzxXuvRoVrRI/+C/f/AAUQ8Ufsp+HPBfgr4e+ILjw/4s8QSSatf3lqF8+3sY8xog3A4EspY5Az/o5GRk55T/ggh/wU58a/tHePvE/w1+J3iSbxFqi2Y1fQL27WNbgqjbbi3LKo8zh43XOSAsnJUAL8IftMeOtU/wCCqv8AwVKmt9HmkksvFviCHw/ojgZW102J/KWfHYeWr3DDnBZ6Z4ostR/4JJ/8FVZDZfbGsfAPiNZ7bef3l9o84zsLcBme0mKEjjfn0xXNLFT9t7ZP3L2/r8yuXSx/RvRVTQdds/E+h2epafcR3VhqECXNtMn3ZonUMjD2KkH8aK94yOH/AGpv2c9H/aq+CWseDdZzCt8gls7tB+80+6TmKdO+VbqARuUsucMa/IDxrdeOP2XPHt74L+IWjy6g+nvtS4UASTxZwsqFsLNG2Mhsg9cnIIH7hVxPxv8A2dPBf7Rvh1dL8ZaDZ6xBCS0EjZjntie8cqkOvuAcHAyDWkctyTHx+rZ7Rc6fSUGlUg+8W9Gn1i/k
+1rf88424PxmZSjj8nrKjioK13rCcd1GaV3o78skm1d6aq35afB/Sl+L2oL/wh6XF1qeeLa0lMN4OpJEeQ+Bg5YDA456V9l/slfsteNrfxEl/44gij0OONgLG+cTXM7EEKcqcoAeTvOTjG3nIueCv+CPfwn8C/EKx8RWl34ykm025S7trWTU0WCKRGDKQUiWXggH/AFlcj+0tfftEeOv2qbrwv4O8deH/AAvosckZ0+GNWQ7CivumbyHZmOeVyU7YHNeLR8BeEczzWMsDP20Kcef/AGiEWo2a092MnLfayXmzxsDxPn/DOAWKz1TU3NQjGhV0ndN3kpOCS025nfqkfY3h/wAHaT4UVhpum2Vj5gwxhhVGf6kDJ/GtKsX4c6Lq3hzwJpNhr2sf8JBrVrapHe6j9nW3+2SgfM+xeFyewrar0aOBw+Dj9WwsYxhG6SiuWPyVlZPfZeaP1qOIqV4qtVvzSSbTd2tNm02rrbRtdmzA+KfxO0P4LfDjW/FniS+j03QfDtnJfX1y4LeVEi5OAOWY9AoBLEgAEkCvhR/+DiP9mv4h2t9o+u6H46XS5gY5U1TQba4tbxc90SeQkHAOGUduK+7viT8NdB+MPgbUvDPijSbPXNB1aMRXljdJvhuFDBgCPZgCD1BANfHHxJ/4N5v2b/Ht7LNp+l+K/CPnclNH1pmRT3IFys2PoOB2AFZYj2//AC6t8zSNup+W3/BU/wCJX7MvxP8AFWh6h+z/AOHdU0K+czHWzHaGx0qZfl8ryoGJKOMNnYqJgjgsTi/8Uf2hdc+Gf/BH34b/AAluLi4jbx7r9/4m8l2IMWjwzhIE2nokt6k8o45MGf4uf0v+F3/Buv8As7/DrxFDqF8vjbxgsDiRbTW9Vj+zkjkbltoYSw9QxIPQgjivQ/2rf+CNvwV/a98ZaXrviCx13RrzSNMh0e3j0O9W0t1tYd3lRiIxuihAxA2BeMelef8AUa75p6JvSyK5lsfjh+zT/wAE
+nP2h/wBoL4U6b468CeH1Xw/rwkFrctrdvYyXKxyNGx2NIrbd6MASOcZHBBrzn9qv9j34ofsM/EDR7f4gaa+i61q0X9qWFzBfx3XmFZCC4ljZgJFcAkZyNynuK/pf+Evwv0f4J/DDw/4Q8P27Wui+GrCHTbKNjuYRRIEUsf4mOMk9ySe9ecftn/sD/Dj9vTwjpuk+P9NvJm0WZ5tOvrG4+z3lkXAEgV8EFXCrlWUglVOMgEVPK17P3X734B7TU/LT/gtL+0rb/tdfsI/sy+P4mi+1a2NSGoxx4xBexpbRXKY7ASo+OnylT3r3v/gld+ypoX7aP/BFG++H+vKsceq6xqL2N5s3Ppt4jgw3C/7rdQCNyllzhjXuEf8AwQx+CUn7PkPw2vJvGmpaHY6vLrdhc3Gqp9s0+4lijimETrEq7JFij3IyMMrkYOTXvP7In7JXhX9in4Nw+BvB0mrS6Lb3c14rajcLPPvlILZZVUY44GK2p4WbqupUtZqz/AXMrWR/Mp8YvhPr3wH+KGu+DfE1m9hrnhu8ksryAnKq6n7yn+JWGGVhwylSOCK/oC/4IT/8oq/hZ/3Fv/Tve10n7Y3/AASe+DX7cPi2LxF4w0fULPxJHElu+q6ReG1uLmNPurICGjfA4DMhYDAzgAD1X9l39m7w9+yL8CtD+HnhV9Sk0Hw/9o+ytfzLNcHzriW4fcyqoPzytjgcYHvU4PBSo1XLpb/IJSuj8Lf+C/n/ACk78Z/9eGl/+kUNfvH+z/8A8kH8E/8AYAsf/SeOvBf2v/8Agjv8G/21/iq3jTxZb+I7HxDNbx21zcaVqIgW7WMbULq6Ou5VAXKgZAGc4r6Y8J+G7fwb4W03R7PzDaaTaRWcBkO5ykaBFyeMnAGTit8Ph5Qqzm9mKTuj+dD9rb/lMF4w/wCymt/6XrX0V/wc6/8AJ2ngD/sUR/6WXFff3xc/4Ip/BP4w/tEXHxOvIfFGm+JLzUo9XuEsNSCWs90rhzIU
+dHI3MuWCkAkngZr0D9tf/gnH8L/2+bDSl8eadqH9oaGHSx1LTbr7NdwI+C0eSGVlJAOHU4OSMZOeb6jU9nOOmruiuZHxj+wL/wAFuvgT+zz+xv8AD3wT4k1DxNHrnhvSltL1LfSHljWQMx+VgeRyOa4P/gs3/wAFAvh1+3n+wBZ3Pw/uNXuIvDPxB0yK9N9YNa7Wm03VSm3Od3+rbOOnHqK+gvDP/Btx+z3oNysl1qHxH1pVbcY73WIEVhjG0+TbxnHfg598cV9A3f8AwS/+B837NN58JbfwNZWHg2+uVvpIreaUXZul4W5+0MxlaUDgMzH5SVxtJWqVHEypunO1rWFdXuj8yf8Agif/AMFQ/hT+wv8AAPxX4d8fXmuW+pav4gOo262WnNcoYvs8MeSQRg7kbivoX9uv/gtx8N/iz+wV8SE+GGp6ufEF+bXwyv2yya1eIX63HmSJzk7be2uRuGNrtH3IruLD/g3E/Z3s7yOSSX4gXSIcmKXWYwj+x2wq35EV3/xI/wCCIH7PPxC+FmieEYPCt74bsNBupbuC50i/dLyeSVUWTzpZfMMuRGmN+du3C7QSCU6OKjT9npaw21e5+Kf7Hv8AwTs+Mn7Y+ian4g+GWhreWeg3Qs57x9SisdkzJuKI0jqWIQjO3oHGeoqx+2B/wTe+Nn7IHhGw8U/EzRFtdN1O8XTYbxdVhvj5xR5FRijsVyqORnj5TX9Bn7If7Ing/wDYk+DkPgfwTDfLpMd3NfSS3sqy3NzNKRueR1VQxCqiDgYVFHatb9o39nDwf+1d8J9Q8F+ONJTV9B1Eq7R7zHJBIhyksbrhkdT0I7Eg5BIOf9lr2e/vfhcPaan48+MP2pf+Ghf+DfD+w76687Xvhr4l07QLgMfna1DM9o/+75R8oept2r0j/g3E+GOi/Gj9nz4/eE/EljHqOheIX0+xvbd+PMjeG6BweqsOoYcggEcivqj4e/8ABB/4HfDzwP4w8Nxz+ONS0Txt
+Dbx31reaum2J7eQSQTRGOJCJEbfgsWGJZAQQ2B61+w9/wTv8A/8ABP3SvEVn4Em8QTQ+J5YJrz+1LtLhg0IcJs2xpjiRs5z2rSlhavtYzqW0Vn+IuZW0P58f24v2SNb/AGI/2k/EHgDWfMmj0+Tz9MvWTaupWLkmGcDpkqCGAztdXXJ219dfsj/tVN+y3/wQc+KTWNx5HiDxt49vPDWmFT86efplh58g7jbbrLhh0dkr9XP2y/8Agnp8L/28NG0+38faLNNfaTuFhqljcG2vrRWwWQOAQyHGdrqyg8gA814/P/wQh+Bd18CLP4eynxnJpGn65c+ILa5OrKLuG4uILeCVQwi2FGS1h4ZCQQcEZIrJZfUpzk6e1nb5j5k9z8Z/2O/+CePxj/bJ0rVdc+GOiLeWvh+4W0uLt9ThsdkroW2IZHUsdvXHQMPWrn7X3/BNn43fsh+DLLxZ8TNDW20vUL1dMjvF1aG+bzijuqNsdmXKxuQTx8uPSv6Cf2Qf2QfB37EPwej8E+CIr9dJF5Nfyy30wmuLiaTAZ3YKoOFVFGFHyovU8nZ/aK/Z08I/tV/CbUvBPjfS11bQdU2tJGJGikikQ7kkjdSGR1IyCPcHIJBf9lr2e/vfhcPaanyv/wAEB/2o/wDhoD9hTT/D99dedrvwzn/sGZWb94bTG+zfHZRHmIf9e5ora+Cf/BEz4afs7Nqx8G+M/ixoX9tGI3YttcgTzfKDBAcW/ON7nnJy57YAK7qPtY01GS1XmS7XP//Z</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>831d1820-e626-4f22-89bf-c4d5064cb26d</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No__Cupon_____">
+          <DataField>No__Cupon_____</DataField>
+        </Field>
+        <Field Name="UPPERCASE__ESTABLECIMIENTO______Cod__Colegio___________Nombre_Colegio_">
+          <DataField>UPPERCASE__ESTABLECIMIENTO______Cod__Colegio___________Nombre_Colegio_</DataField>
+        </Field>
+        <Field Name="GradoAlum">
+          <DataField>GradoAlum</DataField>
+        </Field>
+        <Field Name="Cab__Cupon__Cab__Cupon___No__Cupon_">
+          <DataField>Cab__Cupon__Cab__Cupon___No__Cupon_</DataField>
+        </Field>
+        <Field Name="UPPERCASE_TXT001________Ano_Escolar__">
+          <DataField>UPPERCASE_TXT001________Ano_Escolar__</DataField>
+        </Field>
+        <Field Name="PBX____rCompanyInf__Phone_No_____Ext_____419__302_y_370_________Fax____rCompanyInf__Fax_No__">
+          <DataField>PBX____rCompanyInf__Phone_No_____Ext_____419__302_y_370_________Fax____rCompanyInf__Fax_No__</DataField>
+        </Field>
+        <Field Name="PBX____rCompanyInf__Phone_No______Ext___419__302_y_370_________Fax____rCompanyInf__Fax_No__">
+          <DataField>PBX____rCompanyInf__Phone_No______Ext___419__302_y_370_________Fax____rCompanyInf__Fax_No__</DataField>
+        </Field>
+        <Field Name="Cab__Cupon__Cab__Cupon___No__Cupon__Control1000000012">
+          <DataField>Cab__Cupon__Cab__Cupon___No__Cupon__Control1000000012</DataField>
+        </Field>
+        <Field Name="Cab__Cupon__Cab__Cupon___Cod__Vendedor_">
+          <DataField>Cab__Cupon__Cab__Cupon___Cod__Vendedor_</DataField>
+        </Field>
+        <Field Name="Cab__Cupon__Valido_Hasta_">
+          <DataField>Cab__Cupon__Valido_Hasta_</DataField>
+        </Field>
+        <Field Name="EmptyString">
+          <DataField>EmptyString</DataField>
+        </Field>
+        <Field Name="EmptyString_Control1000000032">
+          <DataField>EmptyString_Control1000000032</DataField>
+        </Field>
+        <Field Name="CodLibro_1______txtDescripcion_1_">
+          <DataField>CodLibro_1______txtDescripcion_1_</DataField>
+        </Field>
+        <Field Name="CodLibro_2______txtDescripcion_2_">
+          <DataField>CodLibro_2______txtDescripcion_2_</DataField>
+        </Field>
+        <Field Name="CodLibro_3______txtDescripcion_3_">
+          <DataField>CodLibro_3______txtDescripcion_3_</DataField>
+        </Field>
+        <Field Name="CodLibro_4______txtDescripcion_4_">
+          <DataField>CodLibro_4______txtDescripcion_4_</DataField>
+        </Field>
+        <Field Name="CodLibro_5______txtDescripcion_5_">
+          <DataField>CodLibro_5______txtDescripcion_5_</DataField>
+        </Field>
+        <Field Name="CodLibro_6______txtDescripcion_6_">
+          <DataField>CodLibro_6______txtDescripcion_6_</DataField>
+        </Field>
+        <Field Name="UPPERCASE_TXT001________Ano_Escolar___Control1000000060">
+          <DataField>UPPERCASE_TXT001________Ano_Escolar___Control1000000060</DataField>
+        </Field>
+        <Field Name="UPPERCASE__ESTABLECIMIENTO______Cod__Colegio___________Nombre_Colegio__Control1000000008">
+          <DataField>UPPERCASE__ESTABLECIMIENTO______Cod__Colegio___________Nombre_Colegio__Control1000000008</DataField>
+        </Field>
+        <Field Name="EmptyString_Control1000000004">
+          <DataField>EmptyString_Control1000000004</DataField>
+        </Field>
+        <Field Name="GradoAlum_Control1000000014">
+          <DataField>GradoAlum_Control1000000014</DataField>
+        </Field>
+        <Field Name="Grado_Caption">
+          <DataField>Grado_Caption</DataField>
+        </Field>
+        <Field Name="NO__CUPON_Caption">
+          <DataField>NO__CUPON_Caption</DataField>
+        </Field>
+        <Field Name="ASESOR_Caption">
+          <DataField>ASESOR_Caption</DataField>
+        </Field>
+        <Field Name="Vence_Caption">
+          <DataField>Vence_Caption</DataField>
+        </Field>
+        <Field Name="Firma_AutorizadaCaption">
+          <DataField>Firma_AutorizadaCaption</DataField>
+        </Field>
+        <Field Name="ZONA_1Caption">
+          <DataField>ZONA_1Caption</DataField>
+        </Field>
+        <Field Name="V6__Ave_y_10__Calle_Esquina_Local_2_1_3_Zona_1Caption">
+          <DataField>V6__Ave_y_10__Calle_Esquina_Local_2_1_3_Zona_1Caption</DataField>
+        </Field>
+        <Field Name="Edif_Plaza_Vivar__Tercer_Nivel___Tel__2220_0313__11_y_2232_6533Caption">
+          <DataField>Edif_Plaza_Vivar__Tercer_Nivel___Tel__2220_0313__11_y_2232_6533Caption</DataField>
+        </Field>
+        <Field Name="Local_28__Parque_de_la_Industria_Del_06_al_15_de_Enero_de_2012Caption">
+          <DataField>Local_28__Parque_de_la_Industria_Del_06_al_15_de_Enero_de_2012Caption</DataField>
+        </Field>
+        <Field Name="Parque_de_la_IndustriaCaption">
+          <DataField>Parque_de_la_IndustriaCaption</DataField>
+        </Field>
+        <Field Name="V6__Ave_0_60_Zona_4_Local_154B1__Guatemala___Teléfono_2338_0045Caption">
+          <DataField>V6__Ave_0_60_Zona_4_Local_154B1__Guatemala___Teléfono_2338_0045Caption</DataField>
+        </Field>
+        <Field Name="Centro_Comercial_Zona_4Caption">
+          <DataField>Centro_Comercial_Zona_4Caption</DataField>
+        </Field>
+        <Field Name="V11_Ave_4_78_Apto_101_Zona_18_Atlántida___Tel__2255_2082__3019_4181Caption">
+          <DataField>V11_Ave_4_78_Apto_101_Zona_18_Atlántida___Tel__2255_2082__3019_4181Caption</DataField>
+        </Field>
+        <Field Name="CC_Meta_Terminal_del_NorteCaption">
+          <DataField>CC_Meta_Terminal_del_NorteCaption</DataField>
+        </Field>
+        <Field Name="Calz_San_Juan_14_06_Zona_4_Local_71F__Mixco__Tel__2431_1675__3002_0008Caption">
+          <DataField>Calz_San_Juan_14_06_Zona_4_Local_71F__Mixco__Tel__2431_1675__3002_0008Caption</DataField>
+        </Field>
+        <Field Name="Centro_Comercial_MontserratCaption">
+          <DataField>Centro_Comercial_MontserratCaption</DataField>
+        </Field>
+        <Field Name="CC_Plaza_Villa_NuevaCaption">
+          <DataField>CC_Plaza_Villa_NuevaCaption</DataField>
+        </Field>
+        <Field Name="TitulosCaption">
+          <DataField>TitulosCaption</DataField>
+        </Field>
+        <Field Name="Calz__Concepción_5_26_Zona_6__Plaza_Villa_Nueva_L_13__Tel__6636_4172Caption">
+          <DataField>Calz__Concepción_5_26_Zona_6__Plaza_Villa_Nueva_L_13__Tel__6636_4172Caption</DataField>
+        </Field>
+        <Field Name="Grado_Caption_Control1000000018">
+          <DataField>Grado_Caption_Control1000000018</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

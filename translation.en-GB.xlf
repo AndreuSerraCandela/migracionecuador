@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-GB" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 251099047 - NamedType 265186787" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No existe caja</source>
+          <target>No existe caja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Transfer_SIC - NamedType ErrorCaja</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2279840785 - Method 2909449762 - NamedType 195097939" size-unit="char" translate="yes" xml:space="preserve">
+          <source> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</source>
+          <target> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Barcode 128 - Method C128MakeBarcode - NamedType Standard128BEN</note>
+        </trans-unit>
+        <trans-unit id="Table 3540328237 - Field 1665957639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cotiza AFP</source>
+          <target>Apply for AFP</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Conceptos salariales - Field Cotiza AFP - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-DO" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 2539673390 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Empresas de cotización - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2539673390 - Control 2353371117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxes</source>
+          <target>Impuestos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Empresas de cotización - Control Taxes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2539673390 - Control 1004196339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payments</source>
+          <target>Pagos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Empresas de cotización - Control Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4045560628 - Action 2838011839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Registro</source>
+          <target>&amp;Registro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CxC Empleados - Action &amp;Registro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4045560628 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post</source>
+          <target>Registrar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CxC Empleados - Action Post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 173551978 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Histórico Préstamos - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 173551978 - Action 910297409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Imprimir</source>
+          <target>&amp;Imprimir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Histórico Préstamos - Action &amp;Imprimir - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2808983409 - Action 3111431394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aceptar</source>
+          <target>Aceptar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pantalla Scanner manual - Action Intro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4073730994 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4131767083 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nominas sin copia - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 733090281" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType INCOMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 3686188376" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType INCOMECaption_Control1000000013Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 64233765" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType TODAY_Control1000000023CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 2015726222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType TIME_Control1000000020CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 4237728964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType DEDUCTIONSCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 511108629 - NamedType 1482296661" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres - NamedType DEDUCTIONSCaption_Control1000000028Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 4237728964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType DEDUCTIONSCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 733090281" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType INCOMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 2079720151" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType TODAY_Control1000000034CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 326410143" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType DEDUCTIONSCaption_Control1000000048Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 3270919777" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType TODAY_Control1000000063CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 1017388594" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType INCOMECaption_Control1000000066Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 1535640048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType TODAY_Control1000000068CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 4251665603" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType DEDUCTIONSCaption_Control1000000077Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 3491547542" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType INCOMECaption_Control1000000095Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 129277310" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType TODAY_Control1000000101CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 854691169" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType TODAY_Control1000000104CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 2395863525" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType DEDUCTIONSCaption_Control1000000129Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 3413359058" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType INCOMECaption_Control1000000145Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 115676527" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType DEDUCTIONSCaption_Control1000000149Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 4195272797" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType INCOMECaption_Control1000000151Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 610698550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEDUCTIONS</source>
+          <target>DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType DEDUCTIONSCaption_Control1000000157Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 229111859 - NamedType 2986677252" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INCOME</source>
+          <target>INGRESOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Pago Sobres 2 - NamedType INCOMECaption_Control1000000161Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 6591245 - NamedType 2859275409" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumulado de regalia por empleado</source>
+          <target>Acumulado de regalia por empleado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Lista acumulado Regalía - NamedType Acumulado_de_regalia_por_empleadoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 6591245 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>página</source>
+          <target>página</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Lista acumulado Regalía - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 6591245 - NamedType 2003325797" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Regalía a pagar</source>
+          <target>Regalía a pagar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Lista acumulado Regalía - NamedType TotImporteCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 6591245 - NamedType 137209530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumulado Regalía</source>
+          <target>Acumulado Regalía</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Lista acumulado Regalía - NamedType AcumuladoSalarioCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 6591245 - NamedType 579267282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Gral.</source>
+          <target>Total Gral.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Lista acumulado Regalía - NamedType Total_Gral_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2335763323 - NamedType 2972553458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Listado préstamos personal</source>
+          <target>Listado préstamos personal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de prestamos personal - NamedType Listado_pr_stamos_personalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2335763323 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>página</source>
+          <target>página</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de prestamos personal - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2335763323 - NamedType 3726908799" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <target>Balance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de prestamos personal - NamedType Importe_Pendiente____LinPerSal_Importe_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2335763323 - NamedType 2122810195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importe Cuota</source>
+          <target>Importe Cuota</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de prestamos personal - NamedType LinPerSal_Importe_Control19CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2335763323 - NamedType 405291092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cantidad Cuotas</source>
+          <target>Cantidad Cuotas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de prestamos personal - NamedType Hist_rico_Cab__Pr_stamo__Importe_Cuota_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2335763323 - NamedType 3258057705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total de empleados</source>
+          <target>Total de empleados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de prestamos personal - NamedType Total_de_empleadosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2335763323 - NamedType 263375133" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total de empleados</source>
+          <target>Total de empleados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de prestamos personal - NamedType Total_de_empleadosCaption_Control40Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 845468283 - NamedType 3633740492" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Vacation's Report</source>
+          <target>Listado vacaciones personal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de vacaciones personal - NamedType Employee_Vacaciones_ReportCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 845468283 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>Pág.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de vacaciones personal - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 845468283 - NamedType 1404906725" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Department</source>
+          <target>Departamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de vacaciones personal - NamedType Employee_DepartamentoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 845468283 - NamedType 2623930685" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vacation's Amount</source>
+          <target>Importe vacaciones</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de vacaciones personal - NamedType MontoVacacionesCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 845468283 - NamedType 542362965" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Vacation</source>
+          <target>Total Vacaciones</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de vacaciones personal - NamedType MontoVacaciones_Control1000000001CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 845468283 - NamedType 3258057705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee total</source>
+          <target>Total de empleados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de vacaciones personal - NamedType Total_de_empleadosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 699788081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Bonification's Report</source>
+          <target>Listado bonificación personal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de Bonificaciones pers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 699788081 - NamedType 765846105" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Bonification's Report</source>
+          <target>Listado bonificación personal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de Bonificaciones pers - NamedType Employee_Bonification_s_ReportCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 699788081 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>página</source>
+          <target>página</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de Bonificaciones pers - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 699788081 - NamedType 1404906725" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Departamento</source>
+          <target>Departamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de Bonificaciones pers - NamedType Employee_DepartamentoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 699788081 - NamedType 2623930685" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonification Amount</source>
+          <target>Monto Bonificación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de Bonificaciones pers - NamedType MontoVacacionesCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 699788081 - NamedType 542362965" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Bonification</source>
+          <target>Total Bonificación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de Bonificaciones pers - NamedType MontoVacaciones_Control1000000001CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 699788081 - NamedType 3258057705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total de empleados</source>
+          <target>Total de empleados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de Bonificaciones pers - NamedType Total_de_empleadosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1046985204 - NamedType 2468698607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List Employees work Projects</source>
+          <target>Listado Trabajos de Empleados en Proyectos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado Nomina Proyectos - NamedType TrabajosEmpl_por_proyectosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1046985204 - NamedType 579267282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand total</source>
+          <target>Total Gral.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado Nomina Proyectos - NamedType Total_Gral_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3436085086 - NamedType 2468698607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Job payroll journal</source>
+          <target>Informe prueba Diario Proyectos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Valida Diario Nom. - Proyectos - NamedType TrabajosEmpl_por_proyectosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3436085086 - NamedType 579267282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand total</source>
+          <target>Total Gral.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Valida Diario Nom. - Proyectos - NamedType Total_Gral_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1512855427 - NamedType 2468698607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List Employees work Projects</source>
+          <target>Listado Trabajos de Empleados en Proyectos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera Diario de  proyectos - NamedType TrabajosEmpl_por_proyectosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1512855427 - NamedType 579267282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand total</source>
+          <target>Total Gral.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera Diario de  proyectos - NamedType Total_Gral_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1087418857 - NamedType 2468698607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List Employees work Projects</source>
+          <target>Listado Trabajos de Empleados en Proyectos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera Diario Proyectos - OJO - NamedType TrabajosEmpl_por_proyectosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1087418857 - NamedType 579267282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand total</source>
+          <target>Total Gral.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera Diario Proyectos - OJO - NamedType Total_Gral_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1964897145 - NamedType 2468698607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Job Journal from employees distribution</source>
+          <target>Genera Diario Proyectos desde distribución empleados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera Diario Proyectos - Fijo - NamedType TrabajosEmpl_por_proyectosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1964897145 - NamedType 579267282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand total</source>
+          <target>Total Gral.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Genera Diario Proyectos - Fijo - NamedType Total_Gral_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1998849637 - NamedType 2468698607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List Employees work Projects</source>
+          <target>Listado Trabajos de Empleados en Proyectos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Procesa control de asistencia - NamedType TrabajosEmpl_por_proyectosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1998849637 - NamedType 579267282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand total</source>
+          <target>Total Gral.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Procesa control de asistencia - NamedType Total_Gral_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 3184143039" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 314038127" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Días</source>
+          <target>Días</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType D_asCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 11777558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full name</source>
+          <target>Nombres y Apellidos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Nombres_y_ApellidosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1860677441" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IV. REGALIA</source>
+          <target>IV. REGALIA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType V__REGALIACaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 217326935" size-unit="char" translate="yes" xml:space="preserve">
+          <source>III. VACACIONES</source>
+          <target>III. VACACIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType III__VACACIONESCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 217919999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gerencia de Recursos Humanos</source>
+          <target>Gerencia de Recursos Humanos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Gerencia_de_Recursos_HumanosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 2175360875" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CALCULATION OF LABOR BENEFITS</source>
+          <target>CALCULO DE PRESTACIONES LABORALES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType LIQUIDACION_DE_PRESTACIONES_LABORALESCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 976025186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Department</source>
+          <target>Departamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType DepartamentoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 2741335608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Position</source>
+          <target>Cargo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType CargoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1880561745" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment date</source>
+          <target>Fecha de Ingreso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Fecha_de_IngresoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 3855088954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Termination Date</source>
+          <target>Fecha de Salida</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Fecha_de_SalidaCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 3302572559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worked time</source>
+          <target>Tiempo Trabajado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Tiempo_TrabajadoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 246826043" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumulado Salario de Navidad</source>
+          <target>Acumulado Salario de Navidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Sueldo_devengado_en_el__ltimo_a_oCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1928598433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Monthly average RD$</source>
+          <target>Promedio Mensual RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Promedio_Mensual_RD_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1294308576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Daily average</source>
+          <target>Promedio Diario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Promedio_DiarioCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 4013742951" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last monthly salary RD$</source>
+          <target>Ultimo Sueldo Mensual RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Ultimo_Sueldo_Mensual_RD_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1558727478" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DETALLES DE LIQUIDACION DE PRESTACIONES LABORALES</source>
+          <target>DETALLES DE LIQUIDACION DE PRESTACIONES LABORALES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType DETALLES_DE_LIQUIDACION_DE_PRESTACIONES_LABORALESCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 2188731293" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Días</source>
+          <target>Días</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType D_asCaption_Control86Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 588937632" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control89Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 4163279232" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Días</source>
+          <target>Días</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType D_asCaption_Control90Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1429980051" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control95Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 3945895742" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TOTAL LIQUIDACION PRESTACIONES LABORALES</source>
+          <target>TOTAL LIQUIDACION PRESTACIONES LABORALES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType TOTAL_LIQUIDACION_PRESTACIONES_LABORALESCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 740564453" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IV. Salario devengado del </source>
+          <target>IV. Salario devengado del </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType IV__Salario_devengado_del_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 748803283" size-unit="char" translate="yes" xml:space="preserve">
+          <source>al</source>
+          <target>al</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType alCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 472471699" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control105Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 2285049431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control109Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 2210459055" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TOTAL DE PAGOS</source>
+          <target>TOTAL DE PAGOS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType TOTAL_DE_PAGOSCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 3224968874" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control113Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1716394402" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Otras Deducciones</source>
+          <target>Otras Deducciones</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Otras_DeduccionesCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 21422062" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control117Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1790325847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avance Salarios</source>
+          <target>Avance Salarios</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Avance_SalariosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1302296737" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control121Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 724093369" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TOTAL DEDUCCIONES</source>
+          <target>TOTAL DEDUCCIONES</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType TOTAL_DEDUCCIONESCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 2750907596" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NETO A PAGAR</source>
+          <target>NETO A PAGAR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType NETO_A_PAGARCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 3603305443" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control127Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 3074104714" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RD$</source>
+          <target>RD$</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType RD_Caption_Control128Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 2697669782" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aprobado por</source>
+          <target>Aprobado por</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Aprobado_porCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 4172600247" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha</source>
+          <target>Fecha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType FechaCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 1497389570" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MENOS :</source>
+          <target>MENOS :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType MENOS__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1769093986 - NamedType 834140769" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recibido Conforme</source>
+          <target>Recibido Conforme</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Calculo Prestaciones laborales - NamedType Recibido_ConformeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3018969280 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina sin copia - coop - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 467765391 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina Aero/Helidosa - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3787294374 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report _Recibo Nomina Aero/Helidosa - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2654214285 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo Nomina CR - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty/Time</source>
+          <target>Cant./Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 2083004747" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType TODAY2CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 1398900861" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType TIME2CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 1753398763" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType Descuentos2CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 3590658570" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType Ingresos2CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 3059274221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType Descripción2CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 166907787" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty/Time</source>
+          <target>Cant./Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType Horas2CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 4126960972" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType Valor2CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2775223853 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. BO - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 572856260 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recibo form.fact. Dom. EC - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 2458789693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType TODAYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 1637278491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType TIMECaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 2599121693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType DescuentosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 362474160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType IngresosCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 1016465387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType DescripciónCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 4081575037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType HorasCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 2851953414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType ValorCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 1713067729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType ValorCaption_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 3252029018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType DescripciónCaption_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 1431729227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date:</source>
+          <target>Fecha:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType TODAY_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 1491477597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time:</source>
+          <target>Hora:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType TIME_2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 815929914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descuentos</source>
+          <target>Descuentos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType Descuentos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 4108342291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ingresos</source>
+          <target>Ingresos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType Ingresos2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 4111021568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType DescripciónC2_aptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 3346109274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Horas</source>
+          <target>Horas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType Horas2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 777393473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType Valor2_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 194727479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType ValorCaption2_Control41Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3624008516 - NamedType 1797563320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Boleta Nomina Ecuador - NamedType DescripciónCaption2_Control43Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1713556351 - NamedType 1241969939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Saldo</source>
+          <target>Saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Cliente - NamedType SaldoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1713556351 - NamedType 2568316111" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripcion</source>
+          <target>Nombre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Cliente - NamedType DescripcionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1713556351 - NamedType 3126303398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subtotal</source>
+          <target>Sub - Total</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Cliente - NamedType SubtotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1713556351 - NamedType 2718345842" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Total</source>
+          <target>Sub - Total</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Cliente - NamedType TotalCaption_Control1100244075Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1887007429 - NamedType 1241969939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Saldo</source>
+          <target>Saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Proveedor - NamedType SaldoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1887007429 - NamedType 2568316111" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripcion</source>
+          <target>Nombre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Proveedor - NamedType DescripcionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1887007429 - NamedType 3126303398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subtotal</source>
+          <target>Sub - Total</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Proveedor - NamedType SubtotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1887007429 - NamedType 118904446" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Total</source>
+          <target>Sub - Total</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Antiguedad Saldo Proveedor - NamedType TotalCaption_Control51Lbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

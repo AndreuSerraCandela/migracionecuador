@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Full_Name">
+          <DataField>Full_Name</DataField>
+        </Field>
+        <Field Name="Document_Type">
+          <DataField>Document_Type</DataField>
+        </Field>
+        <Field Name="Document_ID">
+          <DataField>Document_ID</DataField>
+        </Field>
+        <Field Name="Employment_Date">
+          <DataField>Employment_Date</DataField>
+        </Field>
+        <Field Name="Ano">
+          <DataField>Ano</DataField>
+        </Field>
+        <Field Name="Dia">
+          <DataField>Dia</DataField>
+        </Field>
+        <Field Name="Nombre_Dia">
+          <DataField>Nombre_Dia</DataField>
+        </Field>
+        <Field Name="Nombre_Mes">
+          <DataField>Nombre_Mes</DataField>
+        </Field>
+        <Field Name="Estado_Civil">
+          <DataField>Estado_Civil</DataField>
+        </Field>
+        <Field Name="Address_">
+          <DataField>Address_</DataField>
+        </Field>
+        <Field Name="City_">
+          <DataField>City_</DataField>
+        </Field>
+        <Field Name="Job_Title">
+          <DataField>Job_Title</DataField>
+        </Field>
+        <Field Name="Importe_Texto">
+          <DataField>Importe_Texto</DataField>
+        </Field>
+        <Field Name="Salario">
+          <DataField>Salario</DataField>
+        </Field>
+        <Field Name="SalarioFormat">
+          <DataField>SalarioFormat</DataField>
+        </Field>
+        <Field Name="Tipo_Salario">
+          <DataField>Tipo_Salario</DataField>
+        </Field>
+        <Field Name="Nombre_Rep">
+          <DataField>Nombre_Rep</DataField>
+        </Field>
+        <Field Name="Nombre_Empresa">
+          <DataField>Nombre_Empresa</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
